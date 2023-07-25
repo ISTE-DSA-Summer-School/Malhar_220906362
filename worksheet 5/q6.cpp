@@ -38,12 +38,14 @@ void displayStack(stack<int> st) {
 }
 
 int main() {
-    int sz;
+    int sz, y;
     stack<int> myStack;
     cout << "Enter number of elements: "; cin >> sz;
 
     for(int i=0;i<sz;i++){
-    myStack.push(i);
+        cout << "Enter number";
+        cin >> y
+    myStack.push(y);
     }
     cout << "Original Stack: ";
     displayStack(myStack);
